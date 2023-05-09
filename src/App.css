@@ -1,0 +1,57 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.tw-followCard{
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-size: .8rem;
+  justify-content: space-between;
+  text-align: left;
+}
+
+.tw-followCard-header{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.tw-followCard-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.tw-followCard-user{
+  opacity: .6
+}
+
+.tw-followCard-avatar{
+  border-radius: 1000px;
+  width: 48px;
+  height: 48px;
+}
+
+.tw-followCard-btn{
+  margin-left: 16px;
+  border: 0;
+  border-radius: 999px;
+  padding: 6px 16px;
+  font-weight: 800;
+}
+
+.tw-followCard-btn.is-following{
+  border: 1px solid red;
+}
+
+.tw-followCard-btn:hover{
+  background-color: #09f;
+}
+.tw-followCard-btn.is-following:hover{
+  background-color: red;
+}
+
+
